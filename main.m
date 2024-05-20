@@ -16,7 +16,7 @@ if ~(fs1==fs2)
 end
 
 % mode :1->kalman; 2-> sr-kalman�� 3->if, 4->sr-if
-mode = 4;
+mode = 1;
 
 if mode==1
     out_file = [dir, '/kalman_nlp_out_update.wav'];
